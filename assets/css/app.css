@@ -8,11 +8,43 @@
 	margin-top: 100px;
 }
 
-/* banner end */
+/* .magellan */
+
+.sub-nav dd a {
+	padding: 10px 20px 11px 20px;
+}
+
+/* #action */
+
+#action {
+	float: right;
+}
+
+#action a {
+	margin-bottom: 0;
+}
+
+/* accordion */
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+  background: #43AC6A;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+	background: #8bc734;
+}
 
 /* green */
 
-/* Possible greens 8bc734 8bc734 */
+/* 
+ *
+ * Possible greens:
+ * 
+ * #8bc734
+ * #43AC6A
+ * #368a55
+ *
+ */
 
 .green  {
 	background-color: #8bc734;
@@ -23,5 +55,25 @@
 }
 
 .green p, .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
+		color: #ffffff;
+}
+
+/* 
+ *
+ * Possible greens:
+ * 
+ * #ffb51f
+ *
+ */
+
+.orange  {
+	background-color: #ffb51f;
+}
+
+.orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
+	font-weight: bold;
+}
+
+.orange p, .orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
 		color: #ffffff;
 }
