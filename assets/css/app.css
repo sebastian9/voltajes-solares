@@ -10,8 +10,8 @@
 
 /* .magellan */
 
-.sub-nav dd a {
-	padding: 10px 20px 11px 20px;
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	background: #43AC6A;
 }
 
 /* #action */
@@ -21,7 +21,8 @@
 }
 
 #action a {
-	margin-bottom: 0;
+	font-weight: bold;
+	color: #ffffff;
 }
 
 /* accordion */
@@ -54,8 +55,8 @@
 	font-weight: bold;
 }
 
-.green p, .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
-		color: #ffffff;
+.green, .green li > a, .green p, .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
+	color: #ffffff;
 }
 
 /* 
