@@ -9,7 +9,6 @@ body {
 	font-weight: bolder;
 	text-align: center;
 	font-size: 100px;
-	margin-top: 100px;
 }
 
 /* #action */
@@ -54,4 +53,13 @@ body {
 
 .orange p, .orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
 		color: #ffffff;
+}
+
+span.vs {
+	color: #ffb51f;
+	font-weight: bold;
+}
+
+span.accordion-title {
+	color: white;
 }
