@@ -2,33 +2,27 @@ body {
 	color: #222222;
 }
 
+dl.sub-nav dd a {
+	color: #222222;
+}
+
 /* banner */
 
-#banner .medium-up-banner {
+#banner h1 {
 	color: #FFFFFF;
 	font-weight: bolder;
 	text-align: center;
-	font-size: 100px;
 }
 
-#banner .small-only-banner {
-	color: #FFFFFF;
-	font-weight: bolder;
-	text-align: center;
-	font-size: 50px;
-}
+#banner .medium-up-banner {font-size: 100px;}
 
-
+#banner .small-only-banner {font-size: 50px;}
 
 /* #action */
 
-#action {
-	float: right;
-}
+#action {float: right;}
 
-#action a {
-	font-weight: bold;
-}
+#action a {font-weight: bold;}
 
 /* accordion */
 
@@ -52,23 +46,20 @@ body {
  *
  */
 
-.orange  {
-	background: #ffb51f;
-}
+.orange  {background: #ffb51f;}
 
 .orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
 	font-weight: bold;
+	color: #ffffff;
 }
 
-.orange p, .orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
-		color: #ffffff;
-}
+.orange p {color: #ffffff;}
+
+/* Spans */
 
 span.vs {
 	color: #ffb51f;
 	font-weight: bold;
 }
 
-span.accordion-title {
-	color: white;
-}
+span.accordion-title {color: white;}
