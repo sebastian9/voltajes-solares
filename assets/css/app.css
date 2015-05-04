@@ -4,12 +4,21 @@ body {
 
 /* banner */
 
-#banner h1 {
+#banner .medium-up-banner {
 	color: #FFFFFF;
 	font-weight: bolder;
 	text-align: center;
 	font-size: 100px;
 }
+
+#banner .small-only-banner {
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 50px;
+}
+
+
 
 /* #action */
 
