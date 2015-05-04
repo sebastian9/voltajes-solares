@@ -27,14 +27,6 @@
 
 /* accordion */
 
-.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-  background: #43AC6A;
-}
-
-.accordion .accordion-navigation > a, .accordion dd > a {
-	background: #8bc734;
-}
-
 /* green */
 
 /* 
@@ -48,7 +40,7 @@
  */
 
 .green  {
-	background-color: #8bc734;
+	background: #8bc734;
 }
 
 .green h1, .green h2, .green h3, .green h4, .green h5, .green h6 {
@@ -68,7 +60,7 @@
  */
 
 .orange  {
-	background-color: #ffb51f;
+	background: #ffb51f;
 }
 
 .orange h1, .orange h2, .orange h3, .orange h4, .orange h5, .orange h6 {
